@@ -1,0 +1,160 @@
+
+
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Republic Day Project - Ritesh Kumar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Tailwind CDN -->
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+
+<style>
+@keyframes rotateChakra{
+  from{transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+</style>
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-orange-500 via-white to-green-700 font-serif overflow-x-hidden scroll-smooth">
+
+<!-- ASHOK CHAKRA BACKGROUND -->
+<div class="fixed inset-0 flex items-center justify-center opacity-10 -z-10">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Ashoka_Chakra.svg"
+       class="w-80 animate-[rotateChakra_20s_linear_infinite]">
+</div>
+
+<!-- NAVBAR -->
+<div class="sticky top-0 z-30 bg-red-800 text-white flex justify-between items-center px-4 py-2">
+  <div class="text-lg font-semibold">🇮🇳 Republic Day</div>
+  <button onclick="toggleMenu()" class="text-3xl">≡</button>
+
+  <div id="menu" class="hidden absolute right-4 top-12 bg-white text-black rounded shadow-lg">
+    <a href="#why26" class="block px-5 py-2 border-b hover:bg-gray-100">26 January</a>
+    <a href="#about" class="block px-5 py-2 hover:bg-gray-100">About Me</a>
+  </div>
+</div>
+
+<!-- TOP MAIN HEADING -->
+<div class="text-center py-14
+            bg-gradient-to-b from-orange-500 via-white to-green-600
+            border-b-4 border-red-800">
+
+  <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide
+             text-blue-900 drop-shadow-2xl">
+    🇮🇳 26 January – Republic Day 🇮🇳
+  </h1>
+</div>
+
+<!-- CARD STYLE WRAPPER -->
+<!-- CARD 1 -->
+<section id="why26" class="max-w-4xl mx-auto my-12
+         bg-gradient-to-b from-orange-500 via-white to-green-600
+         rounded-2xl shadow-2xl p-1">
+
+  <div class="bg-white/95 rounded-xl p-8">
+    <h2 class="text-2xl font-bold text-center text-blue-900">
+      26 जनवरी क्यों मनाई जाती है?
+    </h2>
+    <p class="mt-4 text-lg leading-relaxed">
+      26 जनवरी 1950 को भारत का संविधान लागू हुआ।
+      इसी दिन भारत एक संप्रभु, लोकतांत्रिक गणराज्य बना।
+    </p>
+  </div>
+</section>
+
+<!-- CARD 2 -->
+<section class="max-w-4xl mx-auto my-12
+         bg-gradient-to-b from-orange-500 via-white to-green-600
+         rounded-2xl shadow-2xl p-1">
+
+  <div class="bg-white/95 rounded-xl p-8">
+    <h2 class="text-2xl font-bold text-center text-blue-900">
+      संविधान का महत्व
+    </h2>
+    <p class="mt-4 text-lg leading-relaxed">
+      भारतीय संविधान देश का सर्वोच्च कानून है।
+      यह हमें अधिकार, कर्तव्य, समानता और न्याय प्रदान करता है।
+    </p>
+  </div>
+</section>
+
+<!-- CARD 3 -->
+<section class="max-w-4xl mx-auto my-12
+         bg-gradient-to-b from-orange-500 via-white to-green-600
+         rounded-2xl shadow-2xl p-1">
+
+  <div class="bg-white/95 rounded-xl p-8">
+    <h2 class="text-2xl font-bold text-center text-blue-900">
+      क्या हुआ और कैसे हुआ?
+    </h2>
+    <p class="mt-4 text-lg leading-relaxed">
+      15 अगस्त 1947 को भारत स्वतंत्र हुआ,
+      लेकिन 26 जनवरी 1950 को देश को अपना संविधान मिला।
+      यह संविधान Dr. B. R. Ambedkar की अध्यक्षता में तैयार हुआ।
+    </p>
+  </div>
+</section>
+
+<!-- CARD 4 -->
+<section class="max-w-4xl mx-auto my-12
+         bg-gradient-to-b from-orange-500 via-white to-green-600
+         rounded-2xl shadow-2xl p-1">
+
+  <div class="bg-white/95 rounded-xl p-8">
+    <h2 class="text-2xl font-bold text-center text-blue-900">
+      गणतंत्र का अर्थ
+    </h2>
+    <p class="mt-4 text-lg leading-relaxed">
+      गणतंत्र का अर्थ है ऐसा शासन,
+      जहाँ देश का सर्वोच्च पद जनता द्वारा चुने गए प्रतिनिधि के पास होता है।
+    </p>
+
+    <p class="mt-4 text-center font-bold text-red-800">
+      🇮🇳 संविधान = अधिकार + कर्तव्य + लोकतंत्र 🇮🇳
+    </p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="max-w-4xl mx-auto my-12
+         bg-gradient-to-b from-orange-500 via-white to-green-600
+         rounded-2xl shadow-2xl p-1">
+
+  <div class="bg-white/95 rounded-xl p-8">
+    <h2 class="text-2xl font-bold text-center text-blue-900">
+      🇮🇳 About Me 🇮🇳
+    </h2>
+
+    <p class="mt-4"><b>👤 Name:</b> Ritesh Kumar</p>
+    <p><b>🎓 Class:</b> 12 (B1)</p>
+    <p><b>🏫 School:</b> Dr B P P S Sarvodya IC, Ramganj, Milkipur, Ayodhya</p>
+    <p><b>👨 Father’s Name:</b> Amar Nath</p>
+    <p><b>👩 Mother’s Name:</b> Manju</p>
+
+    <p class="mt-4">
+      <b>💻 My Journey:</b><br>
+      मैंने CodeYogi से HTML, CSS और JavaScript सीखा है और इन skills का उपयोग करके यह Republic Day web project बनाया है।
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-red-800 text-white text-center py-4 mt-10">
+  🇮🇳 Vande Mataram | Jai Hind 🇮🇳
+</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("hidden");
+}
+</script>
+
+</body>
+</html>
